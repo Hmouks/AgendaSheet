@@ -1,0 +1,112 @@
+body {
+    font-family: 'Mukta', sans-serif;
+    height: auto;
+    width: auto;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    color : rgb(77, 73, 73);
+    font-size: 0.9rem;
+}
+
+table {
+    border: collapse;
+    box-shadow: 0 5px 10px rgba(128, 128, 128, 0.404);
+    text-align: left;
+    overflow: hidden;
+}
+
+thead{
+    box-shadow:0 5px 10px rgb(218, 216, 216);
+    text-align: left;
+}
+
+thead th {
+    padding:0.2rem 0.8rem;
+    width: auto;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.05rem;
+    font-size: 0.7rem;
+    font-weight: 900;
+    white-space: nowrap;
+    background-color: rgb(206, 228, 248);
+
+}
+
+td {
+    align-items: center;
+    padding: 0.2rem 0.8rem;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.verygreat {
+    border-radius: 0.3rem;
+    background-color: rgb(0, 207, 0);
+    padding: 0.2rem 0.5rem;
+    color: black;
+}
+
+.great {
+    border-radius: 0.3rem;
+    background-color: rgb(86, 250, 94);
+    padding: 0.2rem 0.5rem;
+    color: black;
+}
+
+.good {
+    border-radius: 0.3rem;
+    background-color: rgb(124, 248, 124);
+    padding: 0.2rem 0.5rem;
+    color: black;
+}
+.normal {
+    border-radius: 0.3rem;
+    background-color: rgb(181, 253, 188);
+    padding: 0.2rem 0.5rem;
+    color: black;
+}
+.ok {
+    border-radius: 0.3rem;
+    background-color: lightpink;
+    padding: 0.2rem 0.5rem;
+    color: black;
+}
+.bad {
+    
+    border-radius: 0.3rem;
+    background-color: lightcoral;
+    padding: 0.2rem 0.5rem;
+    color: black;
+}
+
+.verybad {
+    border-radius: 0.3rem;
+    background-color: rgb(255, 72, 72);
+    padding: 0.2rem 0.5rem;
+    color: black;
+}
+
+.worst {
+    border-radius: 0.3rem;
+    background-color: darkred;
+    padding: 0.2rem 0.5rem;
+    color: black;
+}
+
+
+.vaccmoins{
+    border-radius: 0.3rem;
+    background-color: rgb(247, 204, 66);
+    padding: 0.2rem 0.5rem;
+    color: rgb(245, 125, 13);
+}
+
+tr:nth-child(even){
+    background-color: rgb(247, 249, 255);
+}
+
+tbody tr:nth-child(1){
+    width: 10rem;
+}
